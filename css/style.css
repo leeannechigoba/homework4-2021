@@ -28,13 +28,13 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background: url("../images/pigeon-background.JPEG");
+  background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  
   
 
   /*Req 1*/
@@ -57,7 +57,7 @@ p{
 a{
   /*Req 4*/
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 
@@ -116,9 +116,11 @@ table{
     border-radius: 10px;
     border-collapse: separate;
     border-color: black;
+	overflow:hidden
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+}
 
 /*Add selectors and rules here*/
 
